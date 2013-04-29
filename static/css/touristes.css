@@ -1,0 +1,29 @@
+.player-img {
+	height: 330px;
+}
+
+.vote {
+	margin-top: 10px;
+}
+
+.ib {
+	display: inline-block;
+}
+
+.position {
+	margin: 50px 0px 20px 0px;
+	border-bottom: solid 1px;
+	padding-bottom: 10px;
+}
+
+.votes > h3 {
+	margin: 0px;
+	background-color: #1ABC9C;
+	color: white;
+	padding: 0px 10px;
+	margin-right: 5px;
+}
+
+#disqus {
+	margin-top: 100px;
+}
