@@ -1,4 +1,4 @@
-Django==1.5.1
+Django==1.4.1
 PIL==1.1.7
 gunicorn==0.17.4
 path.py==3.1
