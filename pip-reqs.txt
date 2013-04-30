@@ -1,0 +1,5 @@
+Django==1.5.1
+PIL==1.1.7
+gunicorn==0.17.4
+path.py==3.1
+wsgiref==0.1.2

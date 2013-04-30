@@ -31,7 +31,7 @@
       <div class="row demo-row">
         {% for goalkeeper in goalkeepers %}
         <div class="span3 player">
-          <div class="votes ib"><h3 id="votes-{{goalkeeper.pk}}">{{goalkeeper.votes}}</h3></div><h3 class="ib">{{goalkeeper.name}}</h3>
+          <div class="votes ib"><h3 id="votes-{{goalkeeper.pk}}">{{goalkeeper.votes}}</h3></div><h4 class="ib">{{goalkeeper.name}}</h4>
           <img src="{{MEDIA_URL}}{{goalkeeper.image}}" class="player-img"></img>
           {% if goalkeeper.pk in votes %}
             <a id="{{goalkeeper.pk}}" href="#" class="btn btn-large btn-block btn-primary vote">Τουρίστας!</a>
@@ -45,7 +45,7 @@
       <div class="row demo-row">
         {% for defender in defenders %}
         <div class="span3 player">
-          <div class="votes ib"><h3 id="votes-{{defender.pk}}">{{defender.votes}}</h3></div><h3 class="ib">{{defender.name}}</h3>
+          <div class="votes ib"><h3 id="votes-{{defender.pk}}">{{defender.votes}}</h3></div><h4 class="ib">{{defender.name}}</h4>
           <img src="{{MEDIA_URL}}{{defender.image}}" class="player-img"></img>
           {% if defender.pk in votes %}
             <a id="{{defender.pk}}" href="#" class="btn btn-large btn-block btn-primary vote">Τουρίστας!</a>
@@ -59,7 +59,7 @@
       <div class="row demo-row">
         {% for midfielder in midfielders %}
         <div class="span3 player">
-          <div class="votes ib"><h3 id="votes-{{midfielder.pk}}">{{midfielder.votes}}</h3></div><h3 class="ib">{{midfielder.name}}</h3>
+          <div class="votes ib"><h3 id="votes-{{midfielder.pk}}">{{midfielder.votes}}</h3></div><h4 class="ib">{{midfielder.name}}</h4>
           <img src="{{MEDIA_URL}}{{midfielder.image}}" class="player-img"></img>
           {% if midfielder.pk in votes %}
             <a id="{{midfielder.pk}}" href="#" class="btn btn-large btn-block btn-primary vote">Τουρίστας!</a>
@@ -73,7 +73,7 @@
       <div class="row demo-row">
         {% for attacker in attackers %}
         <div class="span3 player">
-          <div class="votes ib"><h3 id="votes-{{attacker.pk}}">{{attacker.votes}}</h3></div><h3 class="ib">{{attacker.name}}</h3>
+          <div class="votes ib"><h3 id="votes-{{attacker.pk}}">{{attacker.votes}}</h3></div><h4 class="ib">{{attacker.name}}</h4>
           <img src="{{MEDIA_URL}}{{attacker.image}}" class="player-img"></img>
           {% if attacker.pk in votes %}
             <a id="{{attacker.pk}}" href="#" class="btn btn-large btn-block btn-primary vote">Τουρίστας!</a>
