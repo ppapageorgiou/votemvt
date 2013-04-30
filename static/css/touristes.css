@@ -16,6 +16,7 @@
 
 .position {
 	margin-top: 50px;
+	margin-bottom: -20px;
 	border-bottom: solid 1px;
 	padding-bottom: 10px;
 }
